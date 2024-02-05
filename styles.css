@@ -1,0 +1,39 @@
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: hsl(212, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 290px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.card h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.card p {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(212, 45%, 89%);
+  padding-bottom: 10px;
+}
